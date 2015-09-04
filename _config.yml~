@@ -1,0 +1,7 @@
+title: ochhh
+baseurl: "http://ochhh.github.io/ochhh.ga"
+markdown: redcarpet
+name: ochhh.ga#ochhh
+description: code&hack
+paginate: 5
+paginate_path: "ochhh.ga/page:num"

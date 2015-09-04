@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>ochhh</title>
+    <description>Blogging about stuffs</description>
+    <link>p0st.ml</link>
+    <atom:link href="p0st.ml/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Hello, world!</title>
+        
+        
+          <description></description>
+        
+        <pubDate>Thu, 03 Sep 2015 00:00:00 +0800</pubDate>
+        <link>p0st.ml/2015/hello/</link>
+        <guid isPermaLink="true">p0st.ml/2015/hello/</guid>
+      </item>
+    
+  </channel>
+</rss>
