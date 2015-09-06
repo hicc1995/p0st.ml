@@ -1,7 +1,40 @@
-title: ochhh
-baseurl: "http://ochhh.github.io/ochhh.ga"
+name: ochhh
+description: Blogging about stuffs
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
+
+aboutPage: true
+
 markdown: redcarpet
-name: ochhh.ga#ochhh
-description: code&hack
-paginate: 5
-paginate_path: "ochhh.ga/page:num"
+highlighter: pygments
+
+paginate: 20
+baseurl: /
+
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'p0st.ml'
+author:         'ochhh'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post

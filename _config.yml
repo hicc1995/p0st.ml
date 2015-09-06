@@ -1,6 +1,5 @@
 name: ochhh
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+description: C0de&h4ck
 
 aboutPage: true
 
@@ -10,8 +9,6 @@ highlighter: pygments
 paginate: 20
 baseurl: /
 
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
 url:            'p0st.ml'
